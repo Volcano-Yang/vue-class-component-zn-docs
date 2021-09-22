@@ -1,0 +1,23 @@
+{
+  "name": "volcano-blog",
+  "version": "1.0.0",
+  "author": "reco_luan",
+  "scripts": {
+    "dev": "MY_WEPACK_ENV=dev vuepress dev . --open --host \"localhost\"",
+    "build:dev": "MY_WEPACK_ENV=dev vuepress build .",
+    "build:prod": "MY_WEPACK_ENV=prod vuepress build .",
+    "deploy": "cloudbase framework deploy"
+  },
+  "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "github:vuepress-reco/vuepress-plugin-kan-ban-niang",
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "vuepress": "1.8.2",
+    "vuepress-plugin-auto-sidebar": "^2.2.2",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "vuepress-theme-reco": "1.6.6"
+  },
+  "description": "",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
