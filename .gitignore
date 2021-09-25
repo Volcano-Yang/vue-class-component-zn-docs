@@ -3,4 +3,10 @@ node_modules/
 yarn.lock
 yarn.error
 *.DS_Store
-.vuepress/secrets.js
+
+
+/docs/.vuepress/secrets.js
+/docs/.vuepress/dist
+
+.vuepress/.temp
+.vuepress/.cache
