@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Volcano-Yang",
+      "name": "杨灿就是杨火山",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43328103?v=4",
+      "profile": "http://volcanoblog.cn",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "vue-class-component-zn-docs",
+  "projectOwner": "Volcano-Yang",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
