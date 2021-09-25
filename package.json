@@ -4,8 +4,7 @@
   "author": "reco_luan",
   "scripts": {
     "dev": "MY_WEPACK_ENV=dev vuepress dev docs",
-    "build:dev": "MY_WEPACK_ENV=dev vuepress build docs",
-    "build:prod": "MY_WEPACK_ENV=prod vuepress build docs",
+    "build": "MY_WEPACK_ENV=prod vuepress build docs",
     "deploy": "cloudbase framework deploy"
   },
   "devDependencies": {

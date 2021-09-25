@@ -1,17 +1,19 @@
 module.exports = {
     title: 'Vue Class Component中文翻译文档',
     description: 'ECMAScript / TypeScript decorator for class-style Vue components',
-  
+    head: [
+      ['link', { rel: 'icon', href: 'https://qny.volcanoblog.cn/markdown/logo.png' }]
+    ],
     themeConfig: {
       repo: 'Volcano-Yang/vue-class-component-zn-docs',
       docsDir: 'docs',
       editLinks: true,
-  
+      logo: 'https://qny.volcanoblog.cn/markdown/logo.png',
       nav: [
         {
           text: 'Guide',
           link: '/'
-        },
+        }
         // {
         //   text: 'API Reference',
         //   link: '/api/'
@@ -37,6 +39,7 @@ module.exports = {
               'guide/caveats.md'
             ]
           },
+          'desc/contributor.md',
         //   {
         //     title: 'TypeScript Guide',
         //     collapsable: false,
@@ -49,7 +52,8 @@ module.exports = {
         //     ]
         //   }
         ]
-      }
+      },
+      lastUpdated: 'Last Updated',
     }
   }
   
